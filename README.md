@@ -1,7 +1,7 @@
 # numbers
 A Go package that contains number utilities
 
-## Command List
+## Function List
 
 * `IsPrime(n)`: Takes `n` of type `uint32` and returns `bool` if `n` is prime.
 * `IsNarcissistic(n)`: Takes `n` of type `int` and returns `bool` if `n` is a narcissistic number (Armstrong number)
