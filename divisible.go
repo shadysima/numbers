@@ -1,7 +1,7 @@
 package numbers
 
 
-func IsDivisible(n1 float64, n2 float64) bool {
+func IsDivisible(n1 int64, n2 int64) bool {
 	
 	if n1 % n2 == 0 {
 		return true
