@@ -4,7 +4,7 @@ import "math"
 
 
 func IsPrime(num uint32) bool {
-	
+
 	var n int = int(num)
 	if num == 2 {
 		return true
@@ -12,7 +12,7 @@ func IsPrime(num uint32) bool {
 	if num % 2 == 0 {
 		return false
 	}
-	
+
 	var r int = int(math.Floor(math.Sqrt(float64(num))))
 	var step int = 3
 
